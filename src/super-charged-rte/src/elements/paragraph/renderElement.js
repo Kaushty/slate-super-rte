@@ -2,26 +2,27 @@ import React from 'react'
 import { Editor } from 'slate'
 import { useSlate } from 'slate-react'
 
-import DraggableElement from './CreateDraggable'
+import DraggableElement from './createDraggable'
 
 const Element = ({ attributes, children, element, ...rest }) => {
     const constStyle = {
-        margin: '5px 0',
-        padding: '3px',     
+        margin: '0',
+        padding: '0px',     
         width: '100%',   
     } 
     
     const value = rest.state
     const editor = useSlate()
 
-    const getPathOfNode = (childNode) => {
+    const getPath = (childNode) => {
         for (const [node, path] of Editor.nodes(editor, { at: value.length })) {
             if (JSON.stringify(node) === JSON.stringify(childNode)) {
                 return path;
             }
         }
     }
-    const path = getPathOfNode(element)
+
+    const path = getPath(element)
     // const point = { path: [0, 0], offset: 0 };
     // editor.selection = { anchor: point, focus: point };
     // console.log(element)

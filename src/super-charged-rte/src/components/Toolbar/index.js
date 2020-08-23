@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { MarkButton, BlockButton } from './Buttons'
-import { Toolbar } from './helper'
+import { MarkButton, BlockButton } from '../Buttons/buttons'
+import Toolbar from './toolbarLoader'
 
 const Toolbar_Loader = () => {
     return(

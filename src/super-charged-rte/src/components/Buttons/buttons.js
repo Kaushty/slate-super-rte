@@ -1,8 +1,9 @@
 import React from 'react'
 import { useSlate } from 'slate-react'
 
-import { Button, Icon } from './helper'
-import { toggleMark, toggleBlock, isMarkActive, isBlockActive } from '../utils.js/utils'
+import Button from './buttonLoader'
+import Icon from '../Icons/icon'
+import { toggleMark, toggleBlock, isMarkActive, isBlockActive } from '../../utils'
 
 export const BlockButton = ({ format, icon }) => {
     const editor = useSlate()

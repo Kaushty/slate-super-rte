@@ -2,6 +2,7 @@ import React from 'react'
 import { Draggable } from 'react-beautiful-dnd'
 import styled from 'styled-components'
 
+/*
 const DragDiv = styled.div`
     display: flex;
     margin: 0;
@@ -22,11 +23,12 @@ const DragHandle = styled.div`
         opacity: 0.7;
     }
 `
+*/
 
 const ContainerView = styled.div`
     width: 100%;
     margin: 0;
-    padding: 3px;
+    padding: 2px;
 `
 
 const DraggableElement  = (props) => {
@@ -50,7 +52,7 @@ const DraggableElement  = (props) => {
     )
 }
 
-
+/*
 const withDraggableIcon  = (props) => {
     return (
         <Draggable draggableId={`${props.index}`} key={props.index} index={props.index}>
@@ -71,7 +73,6 @@ const withDraggableIcon  = (props) => {
         </Draggable>        
     )
 }
-
+*/
 
 export default DraggableElement
-// export default withDraggableIcon
