@@ -9,11 +9,13 @@
     "emotion": "^10.0.27",
     "is-hotkey": "^0.1.6",
     "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "slate": "^0.58.4",
     "slate-history": "^0.58.4",
-    "slate-react": "^0.58.4"
+    "slate-react": "^0.58.4",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
