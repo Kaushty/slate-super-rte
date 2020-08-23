@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/slate-super-rte/static/css/main.cf429900.chunk.css",
+    "main.js": "/slate-super-rte/static/js/main.31b97424.chunk.js",
+    "main.js.map": "/slate-super-rte/static/js/main.31b97424.chunk.js.map",
+    "runtime-main.js": "/slate-super-rte/static/js/runtime-main.4348b634.js",
+    "runtime-main.js.map": "/slate-super-rte/static/js/runtime-main.4348b634.js.map",
+    "static/js/2.85593c40.chunk.js": "/slate-super-rte/static/js/2.85593c40.chunk.js",
+    "static/js/2.85593c40.chunk.js.map": "/slate-super-rte/static/js/2.85593c40.chunk.js.map",
+    "index.html": "/slate-super-rte/index.html",
+    "precache-manifest.9d1d373c2e2bf5c4455095e767107a5c.js": "/slate-super-rte/precache-manifest.9d1d373c2e2bf5c4455095e767107a5c.js",
+    "service-worker.js": "/slate-super-rte/service-worker.js",
+    "static/css/main.cf429900.chunk.css.map": "/slate-super-rte/static/css/main.cf429900.chunk.css.map",
+    "static/js/2.85593c40.chunk.js.LICENSE.txt": "/slate-super-rte/static/js/2.85593c40.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4348b634.js",
+    "static/js/2.85593c40.chunk.js",
+    "static/css/main.cf429900.chunk.css",
+    "static/js/main.31b97424.chunk.js"
+  ]
+}
