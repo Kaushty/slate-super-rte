@@ -2,13 +2,13 @@ import React from 'react'
 import { Editor } from 'slate'
 import { useSlate } from 'slate-react'
 
-import DraggableElement from './createDraggable'
+import {DraggableElement, HandleDraggableIcon} from './createDraggable'
 
 const Element = ({ attributes, children, element, ...rest }) => {
     const constStyle = {
-        margin: '0',
+        margin: '0px',
         padding: '0px',     
-        width: '100%',   
+        width: '100%',
     } 
     
     const value = rest.state
@@ -23,9 +23,6 @@ const Element = ({ attributes, children, element, ...rest }) => {
     }
 
     const path = getPath(element)
-    // const point = { path: [0, 0], offset: 0 };
-    // editor.selection = { anchor: point, focus: point };
-    // console.log(element)
 
     switch (element.type) {
         case 'block-quote':            
@@ -68,6 +65,7 @@ const Element = ({ attributes, children, element, ...rest }) => {
                     <p {...attributes} style={constStyle}>{children}</p>      
                 </DraggableElement>
             ) 
+        
     }
 }
 
